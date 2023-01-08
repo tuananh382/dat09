@@ -9,7 +9,7 @@ body{
 #imglogo {
     display: flex;
     height: auto;
-    width: 35vw;
+    width:70vw;
     margin: 0 auto;
 }
 .play {
@@ -23,22 +23,22 @@ body{
     margin-top: 10vh;
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (max-width:480px) {
     .play {
         width: 60vw;
-        margin-top: 30vh;
+        margin-top: 15vh;
     }
-    .imglogo {
-        width: 60vw;
+    #imglogo {
+        width: 80vw;
     }
 }
 
-@media screen and (max-width:960px) {
+@media only screen and (max-width:960px) and (min-width:480px) {
     .play {
         width: 60vw;
-        margin-top: 30vh;
+        margin-top: 15vh;
     }
-    .imglogo {
-        width: 60vw;
+    #imglogo {
+        width: 80vw;
     }
 }
