@@ -1,0 +1,18 @@
+body{
+    background-image: url("dat09.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-size: 100vw 100vh;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    padding:0px;
+    margin: auto;
+    margin-top: 35vh;
+}
